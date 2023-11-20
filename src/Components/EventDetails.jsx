@@ -14,43 +14,45 @@ import {
 
 const EventDetails = () => {
   useEffect(() => {
-    if (document.getElementById("timer")) {
-      var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime(); // Update the count down every 1 second
-
+    const timerElement = document.getElementById("timer");
+  
+    if (timerElement) {
+      var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+  
       var x = setInterval(function () {
-        // Get today's date and time
-        var now = new Date().getTime(); // Find the distance between now and the count down date
-
-        var distance = countDownDate - now; // Time calculations for days, hours, minutes and seconds
-
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+  
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000); // Display the result in the element with id="demo"
-
-        document.getElementById("timer").innerHTML =
-          "<div class='text-[44px] font-bold'>" +
-          days +
-          "<div class=' text-lg font-medium mt-2 capitalize'>days</div></div>" +
-          "<div class='text-[44px] font-bold'>" +
-          hours +
-          "<div class='text-lg font-medium mt-2 capitalize'>hours</div></div>" +
-          "<div class='text-[44px] font-bold'>" +
-          minutes +
-          "<div class='text-lg font-medium mt-2 capitalize'>minutes</div></div>" +
-          "<div class='text-[44px] font-bold'>" +
-          seconds +
-          "<div class='text-lg font-medium mt-2 capitalize'>seconds</div></div>"; // If the count down is finished, write some text
-
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("timer").innerHTML = "EXPIRED";
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+        // Update the content only if the element is still present
+        if (timerElement) {
+          timerElement.innerHTML =
+            "<div class='text-[44px] font-bold'>" +
+            days +
+            "<div class=' text-lg font-medium mt-2 capitalize'>days</div></div>" +
+            "<div class='text-[44px] font-bold'>" +
+            hours +
+            "<div class='text-lg font-medium mt-2 capitalize'>hours</div></div>" +
+            "<div class='text-[44px] font-bold'>" +
+            minutes +
+            "<div class='text-lg font-medium mt-2 capitalize'>minutes</div></div>" +
+            "<div class='text-[44px] font-bold'>" +
+            seconds +
+            "<div class='text-lg font-medium mt-2 capitalize'>seconds</div></div>";
+  
+          if (distance < 0) {
+            clearInterval(x);
+            timerElement.innerHTML = "EXPIRED";
+          }
         }
       }, 1000);
     }
   }, []);
+  
 
   return (
     <div className="nav-tab-wrapper tabs  section-padding">

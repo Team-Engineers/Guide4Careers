@@ -9,12 +9,19 @@ const Header = () => {
 
   const scrollNav = useRef(null);
   useEffect(() => {
-    // scrolling nav
-    window.addEventListener("scroll", () => {
-      let windowScroll = window.scrollY > 100;
-      scrollNav.current.classList.toggle("rt-sticky-active", windowScroll);
-      scrollNav.current.classList.toggle("sticky", windowScroll);
-    });
+    const handleScroll = () => {
+      if (scrollNav.current) {
+        let windowScroll = window.scrollY > 100;
+        scrollNav.current.classList.toggle("rt-sticky-active", windowScroll);
+        scrollNav.current.classList.toggle("sticky", windowScroll);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -40,16 +47,6 @@ const Header = () => {
                       <ul className="sub-menu">
                         <li>
                           <Link to={"/react-templates/edumim"}> Home One</Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/home-two"}>
-                            Home Two
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/home-three"}>
-                            Home Three
-                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -101,12 +98,12 @@ const Header = () => {
                     <li className="menu-item-has-children">
                       <a href="#">Courses</a>
                       <ul className="sub-menu">
-                        <li>
+                        {/* <li>
                           <Link to={"/react-templates/edumim/courses"}>
                             Courses
                           </Link>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <Link to={"/react-templates/edumim/courses-sidebar"}>
                             Courses Sidebar
                           </Link>
@@ -115,7 +112,7 @@ const Header = () => {
                           <Link to={"/react-templates/edumim/single-course"}>
                             Single Course
                           </Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
