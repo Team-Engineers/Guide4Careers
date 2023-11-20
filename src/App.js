@@ -1,18 +1,11 @@
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ErrorPage from "./Components/Pages/404Page";
+import React from 'react'
 
-
-function App() {
+const App = () => {
   return (
-    // <BrowserRouter>
-    //   <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
-    //     <Routes>
-    //       <Route path="*" element={<ErrorPage />} />
-    //     </Routes>
-    //   </div>
-    // </BrowserRouter>
-    <ErrorPage/>
-  );
+    <div>
+      Hello everyone this is guide4careers
+    </div>
+  )
 }
 
-export default App;
+export default App
