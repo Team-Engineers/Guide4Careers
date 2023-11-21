@@ -3,12 +3,12 @@ import React, { useEffect } from "react";
 import Banner from "../Banner";
 import Blogs from "../Blogs";
 // import Brands from "../Brands";
-import Courses from "../Courses";
+// import Courses from "../Courses";
 import Feature from "../Feature";
 import Footer from "../Footer";
 import Header from "../Header";
-import NewsLetter from "../NewsLetter";
-import Platform from "../Platform";
+// import NewsLetter from "../NewsLetter";
+// import Platform from "../Platform";
 import Team from "../Team";
 import Testimonials from "../Testimonials";
 import Topics from "../Topics";
@@ -24,9 +24,9 @@ const HomeOne = () => {
       {/* <About /> */}
       {/* <Brands section_padding_bottom={"section-padding-bottom"} /> */}
       <Feature />
-      <Courses />
-      <Platform />
-      <NewsLetter />
+     {/* <Courses />*/}
+      {/*<Platform />*/}
+     {/* <NewsLetter />*/}
       <Topics />
       <Testimonials />
       <Team />
