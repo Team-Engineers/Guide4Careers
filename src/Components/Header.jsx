@@ -42,120 +42,27 @@ const Header = () => {
               <div className="flex items-center flex-1">
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
-                    <li className={`menu-item-has-children `}>
+                    <li className={`menu-item `}>
                       <a href="#">Home</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to={"/react-templates/edumim"}> Home One</Link>
-                        </li>
-                      </ul>
                     </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Pages</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to={"/react-templates/edumim/about"}>
-                            About 1
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/about-two"}>
-                            About 2
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/instructor"}>
-                            Instructor
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/instructor-two"}>
-                            Instructor 2
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to={"/react-templates/edumim/instructor-details"}
-                          >
-                            Instructor Single
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/event"}>
-                            Event
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/event-single"}>
-                            Event Single
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/error"}>404</Link>
-                        </li>
-                      </ul>
+                    <li className={`menu-item whitespace-nowrap`}>
+                      <a href="#">For Students</a>
                     </li>
-                    <li className="menu-item-has-children">
-                      <a href="#">Courses</a>
-                      <ul className="sub-menu">
-                        {/* <li>
-                          <Link to={"/react-templates/edumim/courses"}>
-                            Courses
-                          </Link>
-                        </li> */}
-                        {/* <li>
-                          <Link to={"/react-templates/edumim/courses-sidebar"}>
-                            Courses Sidebar
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/single-course"}>
-                            Single Course
-                          </Link>
-                        </li> */}
-                      </ul>
+                    <li className={`menu-item whitespace-nowrap`}>
+                      <a href="#">For Institutes</a>
                     </li>
-                    {/* <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to={"/react-templates/edumim/blog-standard"}>
-                            Blog Standard
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to={"/react-templates/edumim/single-blog"}>
-                            Blog Single
-                          </Link>
-                        </li>
-                      </ul>
-                    </li> */}
-                    <li>
+                    <li className={`menu-item whitespace-nowrap`}>
+                      <a href="#">Resource Treasure</a>
+                    </li>
+                    <li className="menu-item">
+                      <a href="/react-templates/edumim/blog-standard">Blog</a>
+                    </li>
+                    <li className="menu-item whitespace-nowrap">
                       <Link to={"/react-templates/edumim/contacts"}>
-                        Contacts
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
-                </div>
-                <div className="flex-none flex space-x-[18px]">
-                  <div className=" hidden lg:block">
-                    <a href="#" className="btn btn-primary py-[15px] px-8">
-                      Start Free Trial
-                    </a>
-                  </div>
-                  <div className=" block   lg:hidden">
-                    <button
-                      type="button"
-                      className=" text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center
-                                        menu-click"
-                      onClick={() => setActiveMobileMenu(!activeMobileMenu)}
-                    >
-                      <iconify-icon
-                        icon="cil:hamburger-menu"
-                        rotate="180deg"
-                      ></iconify-icon>
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>

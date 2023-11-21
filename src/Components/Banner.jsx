@@ -10,11 +10,11 @@ const Banner = () => {
       <div className="container relative">
         <div className="max-w-[570px] xl:pt-[297px] md:pt-20 md:pb-20 pt-28 pb-14 xl:pb-40 space-y-8">
           <h1>
-            Classical{" "}
+           Know Your{" "}
             <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom">
-              Education
+              Ideal Career
             </span>{" "}
-            For The Future
+            From Experts
           </h1>
           <div className=" plain-text text-gray leading-[30px]">
             It is long established fact that reader distracted by the readable

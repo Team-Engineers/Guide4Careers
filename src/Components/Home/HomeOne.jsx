@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import About from "../About";
+// import About from "../About";
 import Banner from "../Banner";
 import Blogs from "../Blogs";
-import Brands from "../Brands";
+// import Brands from "../Brands";
 import Courses from "../Courses";
 import Feature from "../Feature";
 import Footer from "../Footer";
@@ -21,8 +21,8 @@ const HomeOne = () => {
     <>
       <Header />
       <Banner />
-      <About />
-      <Brands section_padding_bottom={"section-padding-bottom"} />
+      {/* <About /> */}
+      {/* <Brands section_padding_bottom={"section-padding-bottom"} /> */}
       <Feature />
       <Courses />
       <Platform />
