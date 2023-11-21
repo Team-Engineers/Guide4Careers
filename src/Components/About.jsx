@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 import lightImg from "../assets/images/svg/light.svg";
 import aboutOne from "../assets/images/all-img/about1.png";
@@ -12,7 +12,7 @@ const About = () => {
             <img src={aboutOne} alt="aboutOne" className=" mx-auto" />
           </div>
           <div>
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">About Guide4Careers</div>
             <h4 className="column-title ">
               The Place Where You Can
               <span className="shape-bg">Achieve</span>

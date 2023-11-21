@@ -13,7 +13,7 @@ const About = () => {
             <img src={about5} alt="" />
           </div>
           <div className="xl:col-span-5 lg:col-span-6 col-span-12 ">
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">About Guide4Careers</div>
             <h4 className="column-title ">
               You Can Learn Anything, Anytime From{" "}
               <span className="shape-bg">Anywhere</span>
