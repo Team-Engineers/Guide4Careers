@@ -12,6 +12,7 @@ import Header from "../Header";
 import Team from "../Team";
 import Testimonials from "../Testimonials";
 import Topics from "../Topics";
+import TopColleges from "../TopColleges";
 
 const HomeOne = () => {
   useEffect(() => {
@@ -27,9 +28,11 @@ const HomeOne = () => {
      {/* <Courses />*/}
       {/*<Platform />*/}
      {/* <NewsLetter />*/}
-      <Topics />
+     {/* <Team /> */}
+    <TopColleges/>
+      {/* <Topics /> */}
+
       <Testimonials />
-      <Team />
       <Blogs />
       <Footer />
     </>
