@@ -201,8 +201,4 @@ export const topCollegesData = [
   { img: college6, name: "Bits Pilani"},
   { img: college7, name: "VIT Banglore"},
   { img: college8, name : "Manipal Academy of Higher Education"},
-  
-
-
-  ,
 ];
