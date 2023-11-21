@@ -7,9 +7,9 @@ const Topics = () => {
     <div className=" section-padding">
       <div className="container">
         <div className="text-center">
-          <div className="mini-title">Start Learning From Today</div>
-          <div className="column-title ">
-            Popular <span className="shape-bg">Topics</span> To Learn
+         <div className="mini-title">Start Learning From Today</div>
+                 <div className="column-title ">
+            Our <span className="shape-bg">Students</span> Admits
           </div>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-[30px] pt-10">
