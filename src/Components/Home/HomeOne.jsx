@@ -9,9 +9,10 @@ import Footer from "../Footer";
 import Header from "../Header";
 // import NewsLetter from "../NewsLetter";
 // import Platform from "../Platform";
-import Team from "../Team";
+// import Team from "../Team";
 import Testimonials from "../Testimonials";
-import Topics from "../Topics";
+// import Topics from "../Topics";
+import TopColleges from "../TopColleges";
 
 const HomeOne = () => {
   useEffect(() => {
@@ -27,9 +28,11 @@ const HomeOne = () => {
      {/* <Courses />*/}
       {/*<Platform />*/}
      {/* <NewsLetter />*/}
-      <Topics />
+     {/* <Team /> */}
+    <TopColleges/>
+      {/* <Topics /> */}
+
       <Testimonials />
-      <Team />
       <Blogs />
       <Footer />
     </>

@@ -128,6 +128,15 @@ import team4 from "../assets/images/all-img/team4.png";
 import blog1 from "../assets/images/all-img/blog-1.png";
 import blog2 from "../assets/images/all-img/blog-2.png";
 import blog3 from "../assets/images/all-img/blog-3.png";
+import college1 from "../assets/images/top-colleges/college1.jpeg";
+import college2 from "../assets/images/top-colleges/college2.jpeg";
+import college3 from "../assets/images/top-colleges/college3.jpeg";
+import college4 from "../assets/images/top-colleges/college4.jpeg";
+import college5 from "../assets/images/top-colleges/college5.jpeg";
+import college6 from "../assets/images/top-colleges/college6.jpeg";
+import college7 from "../assets/images/top-colleges/college7.jpeg";
+import college8 from "../assets/images/top-colleges/college8.jpeg";
+
 export {
   blog1,
   blog2,
@@ -256,4 +265,12 @@ export {
   team2,
   team3,
   team4,
+  college1,
+  college2,
+  college3,
+  college4,
+  college5,
+  college6,
+  college7,
+  college8,
 };

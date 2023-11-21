@@ -28,6 +28,14 @@ import {
   team6,
   team7,
   team8,
+  college1,
+  college2,
+  college3,
+  college4,
+  college5,
+  college6,
+  college7,
+  college8
 } from "./images";
 
 export const achivementCounter = [
@@ -182,4 +190,15 @@ export const blogsData = [
     date: "jan 29, 2022",
     title: "Education Is About Create Leaders For Tomorrow",
   },
+];
+
+export const topCollegesData = [
+  { img: college1, name: "Delhi University",},
+  { img: college2, name: "IIM Ahmedabad" },
+  { img: college3, name: "IIM Calcutta" },
+  { img: college4, name: "XLRI"},
+  { img: college5, name: "IIT Madras"},
+  { img: college6, name: "Bits Pilani"},
+  { img: college7, name: "VIT Banglore"},
+  { img: college8, name : "Manipal Academy of Higher Education"},
 ];
