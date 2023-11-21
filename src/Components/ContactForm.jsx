@@ -34,7 +34,7 @@ const ContactForm = () => {
           setEmail("");
           setName("");
           setMessage("");
-          naviget("/react-templates/edumim/thanks");
+          naviget("/thanks");
           setLoading(false);
         },
         (err) => {

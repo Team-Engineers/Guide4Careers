@@ -1,35 +1,16 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/logo.svg";
 import { fbIcon, twIcon, pnIcon, insIcon } from "../constant/images";
 
 const MobileMenu = ({ activeMenu, setActiveMenu }) => {
-  const [showHomeMenu, setShowHomeMenu] = useState(false);
-  const [showPageMenu, setShowPageMenu] = useState(false);
-  const [showBlogMenu, setShowBlogMenu] = useState(false);
-  const [showCourseMenu, setShowCourseMenu] = useState(false);
-  const handleShowHomeMenu = () => {
-    setShowHomeMenu(!showHomeMenu);
-  };
-  const handleShowPageMenu = () => {
-    setShowPageMenu(!showPageMenu);
-  };
-  const handleShowBlogMenu = () => {
-    setShowBlogMenu(!showBlogMenu);
-  };
-  const handleShowCourseMenu = () => {
-    setShowCourseMenu(!showCourseMenu);
-  };
   return (
     <>
       <div className="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999] active-mobile-menu">
         <div className="flex justify-between px-6 flex-none">
-          <Link
-            to={"/react-templates/edumim/home"}
-            className="brand-logo flex-none mr-10 "
-          >
+          <Link to={"/"} className="brand-logo flex-none mr-10 ">
             <img src={logo} alt="logo" />
           </Link>
           <span
@@ -43,128 +24,24 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
         </div>
         <div className="mobile-menu mt-6 flex-1 ">
           <ul className="menu-active-classNamees">
-            <li
-              className={`menu-item-has-children ${showHomeMenu ? "open" : ""}`}
-              onClick={handleShowHomeMenu}
-            >
-              <a href="#">Home</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showHomeMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"/react-templates/edumim"}>Home One</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/home-two"}>Home Two</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/home-three"}>
-                    Home Three
-                  </Link>
-                </li>
-              </ul>
+            <li className={`menu-item`}>
+              <a href="/">Home</a>
             </li>
-            <li
-              className={`menu-item-has-children ${showPageMenu ? "open" : ""}`}
-              onClick={handleShowPageMenu}
-            >
-              <a href="#">Pages</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showPageMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"/react-templates/edumim/about"}>About 1</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/about-two"}>About 2</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/instructor"}>
-                    Instructor
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/instructor-two"}>
-                    Instructor 2
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/instructor-details"}>
-                    Instructor Single
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/event"}>Event</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/event-single"}>
-                    Event Single
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/error"}>404</Link>
-                </li>
-              </ul>
+
+            <li className={`menu-item whitespace-nowrap`}>
+              <a href="#">For Students</a>
             </li>
-            <li
-              className={`menu-item-has-children ${
-                showCourseMenu ? "open" : ""
-              }`}
-              onClick={handleShowCourseMenu}
-            >
-              <a href="#">Courses</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showCourseMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"/react-templates/edumim/courses"}>courses</Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/courses-sidebar"}>
-                    courses Sidebar
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/single-course"}>
-                    Single-course
-                  </Link>
-                </li>
-              </ul>
+            <li className={`menu-item whitespace-nowrap`}>
+              <a href="#">For Institutes</a>
             </li>
-            <li
-              className={`menu-item-has-children ${showBlogMenu ? "open" : ""}`}
-              onClick={handleShowBlogMenu}
-            >
-              <a href="#">Blog</a>
-              <ul
-                className="sub-menu"
-                style={
-                  showBlogMenu ? { display: "block" } : { display: "none" }
-                }
-              >
-                <li>
-                  <Link to={"/react-templates/edumim/blog-standard"}>
-                    Blog Standard
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/react-templates/edumim/single-blog"}>
-                    Single Blog
-                  </Link>
-                </li>
-              </ul>
+            <li className={`menu-item whitespace-nowrap`}>
+              <a href="#">Resource Treasure</a>
             </li>
-            <li>
-              <Link to={"/react-templates/edumim/contacts"}>Contacts</Link>
+            <li className="menu-item">
+              <a href="/blog-standard">Blog</a>
+            </li>
+            <li className="menu-item whitespace-nowrap">
+              <Link to={"/contacts"}>Contact Us</Link>
             </li>
           </ul>
         </div>

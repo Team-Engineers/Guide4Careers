@@ -79,7 +79,7 @@ const HomeTwoHeader = () => {
           <div className="container">
             <div className=" flex items-center justify-between ">
               <Link
-                to={"/react-templates/edumim"}
+                to={"/"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px]  "
               >
                 <img src={logo} alt="" />

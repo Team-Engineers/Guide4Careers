@@ -7,7 +7,7 @@ const WhyChoose = () => {
       <div className="container">
         <div className="lg:grid grid-cols-12 lg:gap-10  space-y-6 lg:space-y-0">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">Why Choose Edumim</div>
+            <div className="mini-title">Why Choose Guide4Careers</div>
             <h4 className="column-title ">
               Grow Your Skill, Define Your {' '}
               <span className="shape-bg pb-4">Bright Future</span>

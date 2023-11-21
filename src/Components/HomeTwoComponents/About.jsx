@@ -9,7 +9,7 @@ const About = () => {
             <img src={about3} alt="" className=" block w-full" />
           </div>
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">About Guide4Careers</div>
             <h4 className="column-title ">
               We Provide The Best Online{" "}
               <span className="shape-bg">Education</span>

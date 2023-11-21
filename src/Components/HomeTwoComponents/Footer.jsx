@@ -160,7 +160,7 @@ const Footer = () => {
         </div>
 
         <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2022 | Edumim Template | All Rights Reserved
+          &copy; Copyright 2023 | Guide4Careers | All Rights Reserved
         </div>
       </div>
     </footer>

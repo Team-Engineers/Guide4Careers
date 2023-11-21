@@ -34,7 +34,7 @@ const Header = () => {
           <div className="container">
             <div className=" flex items-center justify-between">
               <Link
-                to={"/react-templates/edumim"}
+                to={"/"}
                 className="brand-logo flex-none lg:mr-10 md:w-auto max-w-[120px] "
               >
                 <img src={logo} alt="logo" />
@@ -43,7 +43,7 @@ const Header = () => {
                 <div className="flex-1 main-menu relative mr-[74px]">
                   <ul className="menu-active-classNamees">
                     <li className={`menu-item `}>
-                      <a href="#">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li className={`menu-item whitespace-nowrap`}>
                       <a href="#">For Students</a>
@@ -55,10 +55,10 @@ const Header = () => {
                       <a href="#">Resource Treasure</a>
                     </li>
                     <li className="menu-item">
-                      <a href="/react-templates/edumim/blog-standard">Blog</a>
+                      <a href="/blog-standard">Blog</a>
                     </li>
                     <li className="menu-item whitespace-nowrap">
-                      <Link to={"/react-templates/edumim/contacts"}>
+                      <Link to={"/contacts"}>
                         Contact Us
                       </Link>
                     </li>
