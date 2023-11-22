@@ -25,12 +25,6 @@ const OurPartnerInstitutions = () => {
                   className=" w-full h-full object-cover rounded-full"
                 />
               </div>
-              <div className="course-content">
-                <h4 className=" lg:text-2xl text-1xl mb-1 font-bold">
-                  {item.name}
-                </h4>
-                <div>{item.title}</div>
-              </div>
             </div>
           ))}
         </div>

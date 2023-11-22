@@ -39,15 +39,15 @@ import {
 OurPartnerInstitutionsInstitutes1,
 OurPartnerInstitutionsInstitutes2,
 OurPartnerInstitutionsInstitutes3,
-OurPartnerInstitutionsInstitutes4,
-OurPartnerInstitutionsInstitutes5,
-OurPartnerInstitutionsInstitutes6,
-OurPartnerInstitutionsInstitutes7,
-OurPartnerInstitutionsInstitutes8,
+// OurPartnerInstitutionsInstitutes4,
+// OurPartnerInstitutionsInstitutes5,
+// OurPartnerInstitutionsInstitutes6,
+// OurPartnerInstitutionsInstitutes7,
+// OurPartnerInstitutionsInstitutes8,
 OurPartnerInstitutionsInstitutes9,
-OurPartnerInstitutionsInstitutes10,
-OurPartnerInstitutionsInstitutes11,
-OurPartnerInstitutionsInstitutes12
+// OurPartnerInstitutionsInstitutes10,
+// OurPartnerInstitutionsInstitutes11,
+// OurPartnerInstitutionsInstitutes12
 
 } from "./images";
 
@@ -215,17 +215,17 @@ export const topCollegesData = [
   { img: college7, name: "VIT Banglore"},
   { img: college8, name : "Manipal Academy of Higher Education"},
 ];
-export const OurPartnerInstitutionData = [
+export const OurPartnerInstitutionsData = [
   { img: OurPartnerInstitutionsInstitutes1, name: "Amity University"},
   { img: OurPartnerInstitutionsInstitutes2, name: "Amrita Vishwa Vidhyapeetha " },
   { img: OurPartnerInstitutionsInstitutes3, name: "Banaras Hindu University" },
-  { img: OurPartnerInstitutionsInstitutes4, name: "IIT Kharagpur"},
-  { img: OurPartnerInstitutionsInstitutes5, name: "IIT Bombay"},
-  { img: OurPartnerInstitutionsInstitutes6, name: "IIT Madras"},
-  { img: OurPartnerInstitutionsInstitutes7, name: "IIT Science"},
-  { img: OurPartnerInstitutionsInstitutes8, name:"IIT Delhi"},
+  // { img: OurPartnerInstitutionsInstitutes4, name: "IIT Kharagpur"},
+  // { img: OurPartnerInstitutionsInstitutes5, name: "IIT Bombay"},
+  // { img: OurPartnerInstitutionsInstitutes6, name: "IIT Madras"},
+  // { img: OurPartnerInstitutionsInstitutes7, name: "IIT Science"},
+  // { img: OurPartnerInstitutionsInstitutes8, name:"IIT Delhi"},
   { img: OurPartnerInstitutionsInstitutes9,name: "IIT Rorkee"},
-  { img: OurPartnerInstitutionsInstitutes10,name: "IIT Guwahati"},
-  { img: OurPartnerInstitutionsInstitutes11,name: "IIT Heydrabad"},
-  { img: OurPartnerInstitutionsInstitutes12,name: "University of Calcuta"},
+  // { img: OurPartnerInstitutionsInstitutes10,name: "IIT Guwahati"},
+  // { img: OurPartnerInstitutionsInstitutes11,name: "IIT Heydrabad"},
+  // { img: OurPartnerInstitutionsInstitutes12,name: "University of Calcuta"},
 ];
