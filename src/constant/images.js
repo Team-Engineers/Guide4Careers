@@ -136,7 +136,18 @@ import college5 from "../assets/images/top-colleges/college5.jpeg";
 import college6 from "../assets/images/top-colleges/college6.jpeg";
 import college7 from "../assets/images/top-colleges/college7.jpeg";
 import college8 from "../assets/images/top-colleges/college8.jpeg";
-
+import OurPartnerInstitutionsInstitutes1  from "../assets/images/our-partnerinstitution/Institute1.png";
+import OurPartnerInstitutionsInstitutes2  from "../assets/images/our-partnerinstitution/Institute2.png";
+import OurPartnerInstitutionsInstitutes3  from "../assets/images/our-partnerinstitution/Institute3.png";
+import OurPartnerInstitutionsInstitutes4  from "../assets/images/our-partnerinstitution/Institute4.svg";
+import OurPartnerInstitutionsInstitutes5  from "../assets/images/our-partnerinstitution/Institute5.svg";
+import OurPartnerInstitutionsInstitutes6  from "../assets/images/our-partnerinstitution/Institute6.svg";
+import OurPartnerInstitutionsInstitutes7  from "../assets/images/our-partnerinstitution/Institute7.svg";
+import OurPartnerInstitutionsInstitutes8  from "../assets/images/our-partnerinstitution/Institute8.svg";
+import OurPartnerInstitutionsInstitutes9  from "../assets/images/our-partnerinstitution/Institute9.svg";
+import OurPartnerInstitutionsInstitutes10  from "../assets/images/our-partnerinstitution/Institute10.svg";
+import OurPartnerInstitutionsInstitutes11  from "../assets/images/our-partnerinstitution/Institute1.svg";
+import OurPartnerInstitutionsInstitutes12  from "../assets/images/our-partnerinstitution/Institute1.svg";
 export {
   blog1,
   blog2,
