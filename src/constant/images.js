@@ -136,7 +136,18 @@ import college5 from "../assets/images/top-colleges/college5.jpeg";
 import college6 from "../assets/images/top-colleges/college6.jpeg";
 import college7 from "../assets/images/top-colleges/college7.jpeg";
 import college8 from "../assets/images/top-colleges/college8.jpeg";
-
+import OurPartnerInstitutionsInstitutes1  from "../assets/images/ourPartnerInstitutions/Institute1.png";
+import OurPartnerInstitutionsInstitutes2  from "../assets/images/ourPartnerInstitutions/Institute2.png";
+import OurPartnerInstitutionsInstitutes3  from "../assets/images/ourPartnerInstitutions/Institute3.png";
+import OurPartnerInstitutionsInstitutes4  from "../assets/images/ourPartnerInstitutions/Institute4.jpeg";
+import OurPartnerInstitutionsInstitutes5  from "../assets/images/ourPartnerInstitutions/Institute5.jpeg";
+import OurPartnerInstitutionsInstitutes6  from "../assets/images/ourPartnerInstitutions/Institute6.jpeg";
+import OurPartnerInstitutionsInstitutes7  from "../assets/images/ourPartnerInstitutions/Institute7.jpeg";
+import OurPartnerInstitutionsInstitutes8  from "../assets/images/ourPartnerInstitutions/Institute8.jpeg";
+import OurPartnerInstitutionsInstitutes9  from "../assets/images/ourPartnerInstitutions/Institute9.png";
+import OurPartnerInstitutionsInstitutes10  from "../assets/images/ourPartnerInstitutions/Institute10.jpeg";
+import OurPartnerInstitutionsInstitutes11  from "../assets/images/ourPartnerInstitutions/Institute11.jpeg";
+import OurPartnerInstitutionsInstitutes12  from "../assets/images/ourPartnerInstitutions/Institute12.jpeg";
 export {
   blog1,
   blog2,
@@ -273,4 +284,17 @@ export {
   college6,
   college7,
   college8,
+  OurPartnerInstitutionsInstitutes1,
+  OurPartnerInstitutionsInstitutes2,
+  OurPartnerInstitutionsInstitutes3,
+  OurPartnerInstitutionsInstitutes4,
+  OurPartnerInstitutionsInstitutes5,
+  OurPartnerInstitutionsInstitutes6,
+  OurPartnerInstitutionsInstitutes7,
+  OurPartnerInstitutionsInstitutes8,
+  OurPartnerInstitutionsInstitutes9,
+  OurPartnerInstitutionsInstitutes10,
+  OurPartnerInstitutionsInstitutes11,
+  OurPartnerInstitutionsInstitutes12,  
+  
 };
