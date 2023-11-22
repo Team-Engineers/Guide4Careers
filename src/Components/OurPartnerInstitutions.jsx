@@ -6,9 +6,9 @@ const OurPartnerInstitutions = () => {
     <div className=" section-padding">
       <div className="container">
         <div className="text-center">
-          <div className="mini-title">Our Previous Records</div>
+          <div className="mini-title">Our Partners</div>
           <div className="column-title ">
-            Our <span className="shape-bg">Student</span> Admits 
+            Our <span className="shape-bg">Partner</span> Institution 
           </div>
         </div>
         <div className="grid xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-[30px] pt-10">
