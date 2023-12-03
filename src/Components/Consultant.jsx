@@ -8,7 +8,7 @@ const Consultant = () => {
       </h2>
       <h2 className="column-title text-center mt-[-80px]">
         unlock the doors to your
-        <span className="text-[#41cece] ">
+        <span className="text-[#41cece] ml-4">
           fruitful and satisfying professional journey!
         </span>
       </h2>
