@@ -26,12 +26,12 @@ const HomeOne = () => {
       {/* <About /> */}
       {/* <Brands section_padding_bottom={"section-padding-bottom"} /> */}
       <Feature />
-     {/* <Courses />*/}
+      {/* <Courses />*/}
       {/*<Platform />*/}
-     {/* <NewsLetter />*/}
-     {/* <Team /> */}
-    <TopColleges/>
-    <OurPartnerInstitutions/>
+      {/* <NewsLetter />*/}
+      {/* <Team /> */}
+      <TopColleges />
+      <OurPartnerInstitutions />
       {/* <Topics /> */}
 
       <Testimonials />

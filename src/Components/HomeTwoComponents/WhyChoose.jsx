@@ -9,7 +9,7 @@ const WhyChoose = () => {
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
             <div className="mini-title">Why Choose Guide4Careers</div>
             <h4 className="column-title ">
-              Grow Your Skill, Define Your {' '}
+              Grow Your Skill, Define Your{" "}
               <span className="shape-bg pb-4">Bright Future</span>
             </h4>
             <div className=" mb-8">
