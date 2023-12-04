@@ -5,7 +5,7 @@ import About from "../HomeThreeComponents/About";
 import CourseBlock from "../HomeThreeComponents/CourseBlock";
 
 import Video from "../HomeTwoComponents/Video";
-import NewsLetter from "../NewsLetter";
+// import NewsLetter from "../NewsLetter";
 import PageBanner from "../PageBanner";
 import Platform from "../Platform";
 import Team from "../Team";
@@ -22,7 +22,7 @@ const AboutTwo = () => {
       <CourseBlock />
       <Video />
       <Team />
-      <NewsLetter />
+      {/* <NewsLetter /> */}
       <Footer />
     </>
   );

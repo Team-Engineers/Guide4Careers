@@ -69,16 +69,10 @@ const Footer = () => {
                     <a href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
                     <a href="#">Courses</a>
                   </li>
                   <li>
                     <a href="#">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
                   </li>
                 </ul>
               </div>
@@ -89,16 +83,7 @@ const Footer = () => {
                     <a href="#">Legal</a>
                   </li>
                   <li>
-                    <a href="#">Tearms of Use</a>
-                  </li>
-                  <li>
                     <a href="#">Tearm & Condition</a>
-                  </li>
-                  <li>
-                    <a href="#">Payment Method</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy Policy</a>
                   </li>
                   <li>
                     <a href="#">Privacy Policy</a>
@@ -107,32 +92,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="single-footer">
-            <h4 className="mb-8 text-2xl font-bold text-white">Newsletter</h4>
-            <div className="mb-8">
-              Join over <span className="text-primary underline">68,000</span>{" "}
-              people getting our emails Lorem ipsum dolor sit amet consectet
-            </div>
-            <div className="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1">
-              <div className="flex-none">
-                <span className=" ">
-                  <img src="assets/images/icon/mail.svg" alt="" />
-                </span>
-              </div>
-              <div className="flex-1">
-                <input
-                  type="text"
-                  placeholder="Enter your mail"
-                  className="border-none focus:ring-0"
-                />
-              </div>
-            </div>
-            <button className="btn btn-primary block w-full text-center">
-              Subscribe Now
-            </button>
-          </div>
+
         </div>
-      </div>
+        </div>
+      
       <div className="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
         &copy; Copyright {updatedDate} | Guide4Careers | All Rights Reserved
       </div>

@@ -46,7 +46,7 @@ const Header = () => {
                       <a href="/">Home</a>
                     </li>
                     <li className={`menu-item whitespace-nowrap`}>
-                      <a href="#">For Students</a>
+                      <a href="/student">For Students</a>
                     </li>
                     <li className={`menu-item whitespace-nowrap`}>
                       <a href="#">For Institutes</a>
@@ -54,9 +54,9 @@ const Header = () => {
                     <li className={`menu-item whitespace-nowrap`}>
                       <a href="#">Resource Treasure</a>
                     </li>
-                    <li className="menu-item">
+                    {/* <li className="menu-item">
                       <a href="/blog-standard">Blog</a>
-                    </li>
+                    </li> */}
                     <li className="menu-item whitespace-nowrap">
                       <Link to={"/contacts"}>
                         Contact Us

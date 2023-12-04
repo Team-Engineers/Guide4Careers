@@ -14,6 +14,10 @@ import Testimonials from "../Testimonials";
 // import Topics from "../Topics";
 import TopColleges from "../TopColleges";
 import OurPartnerInstitutions from "../OurPartnerInstitutions";
+import Oursuccess from "../Oursuccess";
+import Founder from "../Founder";
+import Consultant from "../Consultant";
+
 
 const HomeOne = () => {
   useEffect(() => {
@@ -32,6 +36,10 @@ const HomeOne = () => {
       {/* <Team /> */}
       <TopColleges />
       <OurPartnerInstitutions />
+      <Oursuccess/>
+      <Founder/>
+      <Consultant/>
+      
       {/* <Topics /> */}
 
       <Testimonials />

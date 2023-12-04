@@ -5,7 +5,7 @@ const Oursuccess = () => {
     <div className=" about-area section-padding bg-[url('../images/all-img/section-bg-8.png')] bg-cover  bg-no-repeat bg-center">
       <div className="">
         <h2 className="flex justify-center column-title">
-          Our Success Stories !
+          Our <span className="shape-bg mr-4 ml-4">Success</span> Stories !
         </h2>
         <div className="max-w-[1240px] mx-auto grid grid-cols-2 gap-6">
           <div className="col-span-1 shadow-2xl h-[400px] my-4  ml-[30px] rounded-3xl">
