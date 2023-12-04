@@ -14,6 +14,10 @@ import Testimonials from "../Testimonials";
 // import Topics from "../Topics";
 import TopColleges from "../TopColleges";
 import OurPartnerInstitutions from "../OurPartnerInstitutions";
+import Oursuccess from "../Oursuccess";
+import Founder from "../Founder";
+import Consultant from "../Consultant";
+
 
 const HomeOne = () => {
   useEffect(() => {
@@ -26,12 +30,16 @@ const HomeOne = () => {
       {/* <About /> */}
       {/* <Brands section_padding_bottom={"section-padding-bottom"} /> */}
       <Feature />
-     {/* <Courses />*/}
+      {/* <Courses />*/}
       {/*<Platform />*/}
-     {/* <NewsLetter />*/}
-     {/* <Team /> */}
-    <TopColleges/>
-    <OurPartnerInstitutions/>
+      {/* <NewsLetter />*/}
+      {/* <Team /> */}
+      <TopColleges />
+      <OurPartnerInstitutions />
+      <Oursuccess/>
+      <Founder/>
+      <Consultant/>
+      
       {/* <Topics /> */}
 
       <Testimonials />

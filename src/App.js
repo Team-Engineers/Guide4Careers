@@ -12,17 +12,16 @@ import InstructorTwo from "./Components/Pages/InstructorTwo";
 import SingleBlog from "./Components/Pages/SingleBlog";
 import SingleCourse from "./Components/Pages/SingleCourse";
 import Thanks from "./Components/Pages/Thanks";
+import Career from "./Components/Pages/Career";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
         <Routes>
-          <Route
-            path="/"
-            element={<HomeOne />}
-          />
-      
+          <Route path="/" element={<HomeOne />} />
+          <Route path="/student" element={<Career />} />
+
           <Route
             path="/react-templates/edumim/about-two"
             element={<AboutTwo />}
@@ -36,28 +35,13 @@ function App() {
             element={<InstructorDetails />}
           />
           <Route path="/react-templates/edumim/event" element={<Event />} />
-          <Route
-            path="/event-single"
-            element={<EventSingle />}
-          />
+          <Route path="/event-single" element={<EventSingle />} />
           <Route path="/react-templates/edumim/error" element={<ErrorPage />} />
           <Route path="/react-templates/edumim/courses" element={<Courses />} />
-          <Route
-            path="/single-course"
-            element={<SingleCourse />}
-          />
-          <Route
-            path="/blog-standard"
-            element={<BLogStandard />}
-          />
-          <Route
-            path="/single-blog"
-            element={<SingleBlog />}
-          />
-          <Route
-            path="/contacts"
-            element={<ContactUs />}
-          />
+          <Route path="/single-course" element={<SingleCourse />} />
+          <Route path="/blog-standard" element={<BLogStandard />} />
+          <Route path="/single-blog" element={<SingleBlog />} />
+          <Route path="/contacts" element={<ContactUs />} />
           <Route path="/thanks" element={<Thanks />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

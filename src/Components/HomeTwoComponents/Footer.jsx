@@ -90,9 +90,6 @@ const Footer = () => {
                       <li>
                         <a href="#">Contact Us</a>
                       </li>
-                      <li>
-                        <a href="#">Blog</a>
-                      </li>
                     </ul>
                   </div>
                   <div className="flex-1 lg:flex-none">
@@ -104,16 +101,7 @@ const Footer = () => {
                         <a href="#">Legal</a>
                       </li>
                       <li>
-                        <a href="#">Tearms of Use</a>
-                      </li>
-                      <li>
                         <a href="#">Tearm & Condition</a>
-                      </li>
-                      <li>
-                        <a href="#">Payment Method</a>
-                      </li>
-                      <li>
-                        <a href="#">Privacy Policy</a>
                       </li>
                       <li>
                         <a href="#">Privacy Policy</a>
