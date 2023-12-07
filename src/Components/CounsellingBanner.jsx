@@ -24,24 +24,30 @@ const CounsellingBanner = ({ text, para,para2  }) => {
     //     e.target.reset();
     //   };
   return (
-    <div className="banner mt-[80px] bg-red-300 grid grid-cols-3 ">
-      <div className="relative h-full bottom-0 items-end w-full ">
-        <img className='h-full relative w-full ' src="https://www.careerguide.com/career/wp-content/uploads/2023/06/Career-Options-after-12th.webp" alt="Banner Image" />
-      </div>    
-      <div className=" w-[90%]">
-        <h1 className='text-white leading-[1em] text-[2.5em] mt-[10px]'>{text}</h1>
-        <ul className="list-disc text-black text-[90%] p-[30px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-justify pl-5">
-            <li className='text-black mb-[20px]'>{para}</li>
-            <li className='text-black mb-[20px]'>
-            {para2}
-            </li>
-        </ul>
+    <div className="mt-[80px] bg-red-300   grid grid-cols-3">
+  <div className=" flex  items-end ">
+    <img className='h-[400px] object-cover' src="https://www.careerguide.com/career/wp-content/uploads/2023/06/Career-Options-after-12th.webp" alt="Banner" />
+  </div>
+  <div className="">
+  <h1  style={{ textShadow: '2px 2px 4px rgba(18, 12, 11, 0.99)' }} className="text-white banner_text leading-[1em] text-[2.5em] mt-[40px] ">{text}</h1>
+  <ul className="list-none text-[90%] p-[30px] lg:text-[15px] xl:text-[15px] 2xl:text-[17px] text-justify pl-5">
+  <li className='text-black my-[30px] mb-[20px] flex '>
+    <span className="mr-2 text-yellow-300">&#8594;</span>
+    {para}
+  </li>
+  <li className=' my-[30px] text-black mb-[20px] flex '>
+    <span className="mr-2 text-yellow-300">&#8594;</span>
+    {para2}
+  </li>
+</ul>
+
       </div>
-      <div className="w-[95%] mx-auto my-[20px] flex items-center">
+      <div className="w-[95%] mx-auto my-[20px] flex items-start">
       <form  className="max-w-[90%] mx-auto bg-white p-4 rounded-md shadow-md">
         <div className='text-center w-[100%] my-[25px] text-[1.7em]'>
-            <h className='text-black whitespace-nowrap'>Request a Call Back</h>
-        </div>
+            <h className='text-black '>Request a Call Back</h>
+        </div> 
+        <div className='flex gap-[5px] flex-row'>
         <div className="mb-2">
           <input
             type="text"
@@ -62,6 +68,7 @@ const CounsellingBanner = ({ text, para,para2  }) => {
             required
             className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
           />
+        </div>
         </div>
         <div className="mb-2">
           
