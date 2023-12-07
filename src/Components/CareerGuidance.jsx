@@ -28,9 +28,11 @@ const CareerGuidance = () => {
                   Course and College Selection
                 </span>
               </p>
+              <a href="class-9th-and-10th-counselling">
               <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
                 Explore
               </button>
+              </a>
             </div>
           </div>
           <div className="col-span-1 shadow-xl h-[500px] my-4 bg-gray-100 border border-2px rounded-2xl">
@@ -48,9 +50,11 @@ const CareerGuidance = () => {
                   Course and College Selection
                 </span>
               </p>
+               <a href="class-11th-and-12th-counselling">
               <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
                 Explore
               </button>
+              </a>
             </div>
           </div>
           <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
@@ -68,9 +72,11 @@ const CareerGuidance = () => {
                   Course and College Selection
                 </span>
               </p>
+              <a href="college-counselling">
               <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
                 Explore
               </button>
+              </a>
             </div>
           </div>
         </div>
