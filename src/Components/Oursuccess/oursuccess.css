@@ -1,0 +1,15 @@
+.successbtn{
+    border: 3px solid black;
+    font-size: 4em;
+    padding: 10px;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    
+
+}
+
+.mySwiper{
+    width: 50%;
+    margin: auto;
+}
