@@ -45,7 +45,7 @@ const TopMentees = () => {
             <div className="grid grid-cols-6 gap-4">
                 {images.map((imageUrl, index) => (
                     <div key={index} className=" p-4">
-                        <img src={imageUrl} alt={`Gallery Image ${index + 1}`} className="w-full h-auto" />
+                        <img src={imageUrl} alt={`Gallery ${index + 1}`} className="w-full h-auto" />
                     </div>
                 ))}
             </div>
