@@ -108,7 +108,7 @@ export default function App() {
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
         <SwiperSlide data-hash="slide1">
-          <div className="col-span-1 shadow-2xl h-[400px] my-4  ml-[30px] rounded-3xl">
+          <div className="col-span-1 shadow-2xl h-[400px] my-4  mr-[20px] ml-[30px] rounded-3xl">
             <div className="text-center font-medium">
               <img
                 className="relative mr-auto ml-6 my-6"
@@ -117,7 +117,7 @@ export default function App() {
               />
               <p className=" text-[blue] mt-[-90px]">Tapan Mandal</p>
               <p className="ml-[80px]">BBA, Depauw University</p>
-              <h5 className="font-bold my-[60px] ml-[-290px]">
+              <h5 className="font-bold my-[60px] ml-[-290px] md:ml-[-100px]">
                 Scholarship Received -
               </h5>
               <p className="text-sm mt-[-30px] mr-8 ml-8 text-justify">
@@ -130,7 +130,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide data-hash="slide1">
-          <div className="col-span-1 shadow-2xl h-[400px] my-4  ml-[30px] rounded-3xl">
+          <div className="col-span-1 shadow-2xl h-[400px] my-4  mr-[20px] ml-[30px] rounded-3xl">
             <div className="text-center font-medium">
               <img
                 className="relative mr-auto ml-6 my-6"
@@ -156,7 +156,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide data-hash="slide1">
-          <div className="col-span-1 shadow-2xl h-[400px] my-4  ml-[30px] rounded-3xl">
+          <div className="col-span-1 shadow-2xl h-[400px] my-4  mr-[20px] ml-[30px] rounded-3xl">
             <div className="text-center font-medium">
               <img
                 className="relative mr-auto ml-6 my-6"
@@ -178,7 +178,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide data-hash="slide1">
-          <div className="col-span-1 shadow-2xl h-[400px] my-4  ml-[30px] rounded-3xl">
+          <div className="col-span-1 shadow-2xl h-[400px] my-4 mr-[20px] ml-[30px] rounded-3xl">
             <div className="text-center font-medium">
               <img
                 className="relative mr-auto ml-6 my-6"

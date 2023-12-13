@@ -1,0 +1,9 @@
+.col-span-1:hover p {
+  color: rgb(255, 123, 0);
+}
+
+@media screen and (max-width: 393px) {
+  .grid-cols-4 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

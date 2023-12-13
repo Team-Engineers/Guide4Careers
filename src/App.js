@@ -13,6 +13,7 @@ import SingleBlog from "./Components/Pages/SingleBlog";
 import SingleCourse from "./Components/Pages/SingleCourse";
 import Thanks from "./Components/Pages/Thanks";
 import Career from "./Components/Pages/Career";
+import Work from "./Components/Pages/Work";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeOne />} />
           <Route path="/student" element={<Career />} />
+          <Route path="/workshop" element={<Work />} />
 
           <Route
             path="/react-templates/edumim/about-two"

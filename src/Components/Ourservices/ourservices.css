@@ -11,3 +11,10 @@
 .services:hover {
     background-color: rgb(155, 190, 243); 
 }
+
+.middle-hr {
+  margin: 20px auto;  /* Adjust the margin as needed */
+  width: 50%;         /* Adjust the width as needed */
+  border: 1px solid #ccc; /* Set border properties as needed */
+}
+

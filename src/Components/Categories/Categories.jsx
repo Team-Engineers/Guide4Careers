@@ -10,26 +10,26 @@ const Categories = () => {
         </h2>
         <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-8">
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">
+            <p className="text-center my-5 text-black text-2xl">
               Engineering & Technology
             </p>
           </div>
-          <div className="col-span-1 shadow-xl h-[80px] my-4  border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">
+          <div className="col-span-1 shadow-xl h-[80px] my-4  border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white ">
+            <p className="text-center my-5 text-black text-2xl">
               Management & Marketing
             </p>
           </div>
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">Healthcare</p>
+            <p className="text-center my-5 text-black text-2xl">Healthcare</p>
           </div>
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">Science & Research</p>
+            <p className="text-center my-5 text-black text-2xl">Science & Research</p>
           </div>
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">Media & Entertainment</p>
+            <p className="text-center my-5 text-black text-2xl">Media & Entertainment</p>
           </div>
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px  hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
-            <p className="text-center my-5 text-black">Law & Order</p>
+            <p className="text-center my-5 text-black text-2xl">Law & Order</p>
           </div>
         </div>
       </div>
