@@ -14,9 +14,14 @@ import Testimonials from "../Testimonials";
 // import Topics from "../Topics";
 import TopColleges from "../TopColleges";
 import OurPartnerInstitutions from "../OurPartnerInstitutions";
-import Oursuccess from "../Oursuccess";
+import Oursuccess from "../Oursuccess/Oursuccess";
 import Founder from "../Founder";
 import Consultant from "../Consultant";
+import Assessment from "../Assessment/Assessment";
+import Ourservices from "../Ourservices/Ourservices";
+import Categories from "../Categories/Categories";
+import Exam from "../Exam/Exam";
+
 
 
 const HomeOne = () => {
@@ -39,6 +44,10 @@ const HomeOne = () => {
       <Oursuccess/>
       <Founder/>
       <Consultant/>
+      <Assessment/>
+      <Ourservices/>
+      <Categories/>
+      <Exam/>
       
       {/* <Topics /> */}
 

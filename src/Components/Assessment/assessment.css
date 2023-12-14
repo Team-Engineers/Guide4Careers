@@ -1,0 +1,13 @@
+.assessment {
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.assessment:hover {
+    background-color: rgb(155, 190, 243); 
+}

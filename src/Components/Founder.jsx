@@ -7,17 +7,17 @@ const Founder = () => {
         Meet The Main Behind <span className='shape-bg ml-4'>Our Success</span>
       </h2>
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 ">
-        <div className="  h-[300px] w-[300px] my-4  ml-[30px] ">
+        <div className=" h-[300px] w-[300px] my-4  ml-[30px] ">
           <div className="text-center font-medium">
             <img
-              className="w-full h-full object-cover "
+              className=" w-full h-full object-cover  "
               src={require("../../src/assets/images/success/sir.png")}
               alt=""
             />
           </div>
         </div>
-        <div className="justify-center font-medium my-[90px]">
-          <h4>
+        <div className="justify-center font-medium my-[90px] ">
+          <h4 className=''>
             Mr.Devendra Singh Rana<br></br>(Founder)
           </h4>
           <p className="text-md text-justify my-10">
