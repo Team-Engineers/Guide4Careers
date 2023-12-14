@@ -22,11 +22,7 @@ const HomeOne = () => {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-<<<<<<< Updated upstream
     <div className=" overflow-hidden ">
-=======
-    <div className="overflow-hidden">
->>>>>>> Stashed changes
       <Header />
       <Banner />
       <Feature />
