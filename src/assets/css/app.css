@@ -2399,9 +2399,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
   display: list-item;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 .h-\[46px\] {
   height: 46px;
