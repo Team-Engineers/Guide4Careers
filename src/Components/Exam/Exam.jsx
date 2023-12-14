@@ -11,7 +11,7 @@ const Exam = () => {
           'GMAT', 'IBSAT', 'MAHCET', 'KIITEE',
           'ATMA', 'MIVAT', 'KEAM', 'VEE'
         ].map((exam, index) => (
-          <div key={index} className="col-span-1 shadow-xl mx-auto h-[60px] w-[130px] my-4 rounded-2xl hover:scale-110 duration-100 bg-[#008cff] hover:bg-white">
+          <div key={index} className="col-span-1 shadow-xl mx-auto h-[60px] lg:w-[200px] w-[130px] my-4 rounded-2xl hover:scale-110 duration-100 bg-[#008cff] hover:bg-white">
             <p className="text-center my-5 text-black">{exam}</p>
           </div>
         ))}

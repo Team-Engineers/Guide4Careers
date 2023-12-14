@@ -14,7 +14,6 @@ const Assessment = () => {
         return <PsychometricCareerTestComponent />;
       case "21st Century Skills & Learning Test":
         return <SkillsAndLearningTestComponent />;
-      // Add cases for other components as needed
       default:
         return null;
     }
@@ -54,12 +53,10 @@ const Assessment = () => {
   );
 }
 
-// Dummy component examples (replace with your actual components)
 const PsychometricCareerTestComponent = () => (
   <div>
-    {/* Content for Psychometric Career Test component */}
-    <div className="max-w-[1240px] mx-auto grid grid-cols-4 gap-6">
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] max-md:h-[700px] mx-auto md:flex md:flex-wrap max-md:overflow-scroll  gap-6">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             className="profile-image relative "
@@ -75,10 +72,11 @@ const PsychometricCareerTestComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[500px] my-4 bg-gray-100 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            src={require("../../assets/images/assessment/assessment2.png")}
+            className="profile-image relative "
+            src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
           <p className="py-2 mx-8 mt-8">
@@ -90,7 +88,7 @@ const PsychometricCareerTestComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             src={require("../../assets/images//assessment/assessment5.png")}
@@ -105,7 +103,7 @@ const PsychometricCareerTestComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             src={require("../../assets/images/assessment/assessment4.png")}
@@ -120,7 +118,7 @@ const PsychometricCareerTestComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             src={require("../../assets/images/assessment/assessment5.png")}
@@ -135,7 +133,7 @@ const PsychometricCareerTestComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             src={require("../../assets/images/assessment/assessment4.png")}
@@ -156,9 +154,8 @@ const PsychometricCareerTestComponent = () => (
 
 const SkillsAndLearningTestComponent = () => (
   <div>
-    {/* Content for 21st Century Skills & Learning Test component */}
-    <div className="max-w-[1240px] mx-auto grid grid-cols-4 gap-6">
-      <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] mx-auto flex flex-wrap justify-center gap-6">
+      <div className="col-span-1 shadow-xl max-h-[600px] max-md:my-[30px] md:my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
             className="profile-image relative "
@@ -174,81 +171,6 @@ const SkillsAndLearningTestComponent = () => (
           </button>
         </div>
       </div>
-      {/* <div className="col-span-1 shadow-xl h-[500px] my-4 bg-gray-100 border border-2px rounded-2xl">
-        <div className="text-center font-medium">
-          <img
-            src={require("../../assets/images/assessment/assessment2.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div> */}
-      {/* <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
-            src={require("../../assets/images//assessment/assessment5.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div> */}
-      {/* <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
-            src={require("../../assets/images/assessment/assessment4.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div> */}
-      {/* <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
-            src={require("../../assets/images/assessment/assessment5.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div> */}
-      {/* <div className="col-span-1 shadow-xl h-[500px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
-            src={require("../../assets/images/assessment/assessment4.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div> */}
     </div>
   </div>
 );

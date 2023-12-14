@@ -2,14 +2,14 @@ import React from 'react'
 
 const   Consultant = () => {
   return (
-    <div className="flex flex-col items-center">
-      <h2 className="text-center my-[90px]">Speak to a Career Consultant!</h2>
-      <h2 className="column-title text-center mt-[-80px]">
-        unlock the doors to your
-        <span className="text-[#41cece] ml-4 mr-4">
-          fruitful and satisfying
-        </span>
-        professional journey!
+    <div className="flex mx-[20px] flex-col items-center">
+      <h2 className="text-center max-md:text-[170%] my-[90px]">Speak to a Career Consultant!</h2>
+      <h2 className="my-[20px] max-md:text-[140%] text-center mt-[-80px]">
+        unlock the doors to your &#160;
+        <span className="text-[#41cece] "> 
+          fruitful and satisfying &#160;
+        </span> 
+        professional journey! 
       </h2>
       <div className="max-w-[1240px] mx-auto  ">
         <div className="  md:h-[400px] max-w-[1000px] my-4  ">
