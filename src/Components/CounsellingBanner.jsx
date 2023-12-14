@@ -1,5 +1,4 @@
 import React from 'react';
-// import emailjs from 'emailjs-com';
 
 const CounsellingBanner = ({ text, para,para2  }) => {
     const indianStates = [
@@ -10,19 +9,7 @@ const CounsellingBanner = ({ text, para,para2  }) => {
         "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Andaman and Nicobar Islands",
         "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Lakshadweep", "Puducherry"
       ];
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    
-    //     emailjs.sendForm('YOUR_EMAILJS_SERVICE_ID', 'YOUR_EMAILJS_TEMPLATE_ID', e.target, 'YOUR_EMAILJS_USER_ID')
-    //       .then((result) => {
-    //         console.log(result.text);
-    //       }, (error) => {
-    //         console.log(error.text);
-    //       });
-    
-    //     e.target.reset();
-    //   };
+ 
   return (
     <div className="mt-[80px] bg-red-300   grid grid-cols-3">
   <div className=" flex  items-end ">
