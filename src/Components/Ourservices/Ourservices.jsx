@@ -36,10 +36,10 @@ const Ourservices = () => {
 
   return (
       <div className="container">
-        <h2 className="column-title flex justify-center">
+        <h2 className="column-title mx-auto text-center flex justify-center">
           Career Exploration Workshops
         </h2>
-        <div className="relative flex justify-end gap-4 mr-[80px]">
+        <div className="relative md:flex justify-center grid max-md:grid-cols-2  gap-4 mx-auto">
           <button
             className="services"
             onClick={() => handleButtonClick("Counsellors")}

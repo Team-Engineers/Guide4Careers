@@ -8,7 +8,7 @@ const Categories = () => {
         <h2 className="column-title flex justify-center">
           Top Categories of Career Option
         </h2>
-        <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-8">
+        <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 grid-cols-2 gap-8">
           <div className="col-span-1 shadow-xl h-[80px] my-4 border border-2px hover:scale-105 duration-100 rounded-xl bg-[#5e7bfd] hover:bg-white">
             <p className="text-center my-5 text-black text-2xl">
               Engineering & Technology

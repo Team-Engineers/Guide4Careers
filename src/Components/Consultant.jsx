@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Consultant = () => {
+const   Consultant = () => {
   return (
     <div className="flex flex-col items-center">
       <h2 className="text-center my-[90px]">Speak to a Career Consultant!</h2>
@@ -12,10 +12,15 @@ const Consultant = () => {
         professional journey!
       </h2>
       <div className="max-w-[1240px] mx-auto  ">
-        <div className="  h-[400px] w-[1000px] my-4  ">
+        <div className="  md:h-[400px] max-w-[1000px] my-4  ">
           <div className="text-center font-medium">
             <img
-              className="w-full h-full object-cover  "
+              className="mx-auto max-md:block md:hidden  h-full object-cover  "
+              src={require("../../src/assets/images/success/Consultant.webp")}
+              alt=""
+            />
+             <img
+              className="w-full max-md:hidden md:block h-full object-cover"
               src={require("../../src/assets/images/success/consultant1.png")}
               alt=""
             />

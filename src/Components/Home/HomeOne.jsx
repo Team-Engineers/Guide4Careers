@@ -29,7 +29,7 @@ const HomeOne = () => {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <>
+    <div className=" overflow-hidden ">
       <Header />
       <Banner />
       {/* <About /> */}
@@ -54,7 +54,7 @@ const HomeOne = () => {
       <Testimonials />
       <Blogs />
       <Footer />
-    </>
+    </div>
   );
 };
 
