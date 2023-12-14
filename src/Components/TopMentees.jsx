@@ -49,11 +49,6 @@ const TopMentees = () => {
                     </div>
                 ))}
             </div>
-
-            {/* <div className="text-center">
-          <div className="column-title my-[30px] ">
-          TRUSTED BY <span className="shape-bg">30000+</span> STUDENTS 
-          </div> */}
             <OurPartnerInstitutions />
         </div>
     )
