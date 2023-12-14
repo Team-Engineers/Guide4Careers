@@ -35,67 +35,66 @@ const Ourservices = () => {
   };
 
   return (
-      <div className="container">
-        <h2 className="column-title flex justify-center">
-          Career Exploration Workshops
-        </h2>
-        <div className="relative flex justify-end gap-4 mr-[80px]">
-          <button
-            className="services"
-            onClick={() => handleButtonClick("Counsellors")}
-          >
-            Counsellors
-          </button>
-          <button
-            className="services"
-            onClick={() => handleButtonClick("Working-Professionals")}
-          >
-            Working Professionals
-          </button>
-          <button
-            className="services"
-            onClick={() => handleButtonClick("For Collage")}
-          >
-            For Collage
-          </button>
-          <button
-            className="services"
-            onClick={() => handleButtonClick("Class 11 & 12")}
-          >
-            Class 11 & 12
-          </button>
-          <button
-            className="services"
-            onClick={() => handleButtonClick("Class 10")}
-          >
-            Class 10
-          </button>
-          <button
-            className="services"
-            onClick={() => handleButtonClick("Class 8 & 9")}
-          >
-            Class 8 & 9
-          </button>
-        </div>
-
-        {renderServiceComponent()}
-
-        <p className="my-6 text-justify ">{/* Your existing content */}</p>
-
-        {/* Your existing grid of components */}
+    <div className="container">
+      <h2 className="column-title mx-auto text-center flex justify-center">
+        Career Exploration Workshops
+      </h2>
+      <div className="relative md:flex justify-center grid max-md:grid-cols-2  gap-4 mx-auto">
+        <button
+          className="services"
+          onClick={() => handleButtonClick("Counsellors")}
+        >
+          Counsellors
+        </button>
+        <button
+          className="services"
+          onClick={() => handleButtonClick("Working-Professionals")}
+        >
+          Working Professionals
+        </button>
+        <button
+          className="services"
+          onClick={() => handleButtonClick("For Collage")}
+        >
+          For Collage
+        </button>
+        <button
+          className="services"
+          onClick={() => handleButtonClick("Class 11 & 12")}
+        >
+          Class 11 & 12
+        </button>
+        <button
+          className="services"
+          onClick={() => handleButtonClick("Class 10")}
+        >
+          Class 10
+        </button>
+        <button
+          className="services"
+          onClick={() => handleButtonClick("Class 8 & 9")}
+        >
+          Class 8 & 9
+        </button>
       </div>
-    
+
+      {renderServiceComponent()}
+
+      <p className="my-6 text-justify ">{/* Your existing content */}</p>
+
+      {/* Your existing grid of components */}
+    </div>
   );
 };
 
 // Dummy component examples (replace with your actual components)
 const CounsellorsComponent = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="profile-image relative "
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -108,24 +107,11 @@ const CounsellorsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 bg-gray-100 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            src={require("../../assets/images/assessment/assessment2.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images//assessment/assessment5.png")}
             alt=""
           />
@@ -138,9 +124,28 @@ const CounsellorsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
+            src={require("../../assets/images//assessment/assessment5.png")}
+            alt=""
+          />
+          <p className="py-2 mx-8 mt-8">
+            Guidance for<br></br>
+            <span className="text-[#41cece]">Course and College Selection</span>
+          </p>
+          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
+            Explore
+          </button>
+        </div>
+      </div>
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
+        <div className="text-center font-medium">
+          <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -153,9 +158,11 @@ const CounsellorsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment5.png")}
             alt=""
           />
@@ -168,9 +175,11 @@ const CounsellorsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -189,11 +198,11 @@ const CounsellorsComponent = () => (
 
 const WorkingProfessionalsComponent = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="profile-image relative "
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -206,24 +215,12 @@ const WorkingProfessionalsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 bg-gray-100 border border-2px rounded-2xl">
+
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            src={require("../../assets/images/assessment/assessment2.png")}
-            alt=""
-          />
-          <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-        </div>
-      </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
-        <div className="text-center font-medium">
-          <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images//assessment/assessment5.png")}
             alt=""
           />
@@ -236,9 +233,11 @@ const WorkingProfessionalsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -251,9 +250,11 @@ const WorkingProfessionalsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment5.png")}
             alt=""
           />
@@ -266,9 +267,11 @@ const WorkingProfessionalsComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
+                      className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
+
             src={require("../../assets/images/assessment/assessment4.png")}
             alt=""
           />
@@ -287,23 +290,15 @@ const WorkingProfessionalsComponent = () => (
 
 const ForCollageComponent = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl mt-3 mr-4 ml-3"
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/collage5.png")}
             alt=""
           />
-          {/* <p className="py-2 mx-8 mt-8">
-            Guidance for<br></br>
-            <span className="text-[#41cece]">Course and College Selection</span>
-          </p>
-          <a href="Workshop">
-          <button className="bg-[#fd7d7d] w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white]">
-            Explore
-          </button>
-          </a> */}
+
           <hr className="middle-hr" />
           <div className="service_items">
             <div className=" mr-[280px] mt-8">
@@ -323,17 +318,17 @@ const ForCollageComponent = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-            <a href="Workshop">
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
-            View Program
-          </button>
+          <a href="Workshop">
+            <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+              View Program
+            </button>
           </a>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 bg-gray-100 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] bg-gray-100 border border-2px rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] h-60 rounded-2xl mt-3 mr-4 ml-3 "
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto   rounded-2xl mt-3   "
             src={require("../../assets/images/assessment/collage7.png")}
             alt=""
           />
@@ -346,10 +341,10 @@ const ForCollageComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl mt-3 mr-4 ml-3"
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
             src={require("../../assets/images//assessment/collage1.png")}
             alt=""
           />
@@ -362,10 +357,10 @@ const ForCollageComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl mt-3 mr-4 ml-3"
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/collage3.png")}
             alt=""
           />
@@ -378,10 +373,10 @@ const ForCollageComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl mt-3 mr-4 ml-3"
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/collage4.png")}
             alt=""
           />
@@ -394,10 +389,10 @@ const ForCollageComponent = () => (
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px] my-4 sm:w-[350px] max-sm:w-[90%] border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] h-60 rounded-2xl mt-3 mr-4 ml-3"
+            className="md:max-w-[300px] h-[300px] max-md:w-[90%]  mx-auto   rounded-2xl mt-3  "
             src={require("../../assets/images/assessment/collage6.png")}
             alt=""
           />
@@ -416,11 +411,11 @@ const ForCollageComponent = () => (
 
 const Class1112Component = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-3 "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images/assessment/class11-3.png")}
             alt=""
           />
@@ -446,15 +441,15 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 bg-gray-100 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 bg-gray-100 border border-2px rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-6  "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images/assessment/class11-4.png")}
             alt=""
           />
@@ -480,15 +475,15 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-3 "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images//assessment/class11.png")}
             alt=""
           />
@@ -514,15 +509,15 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-3 "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images/assessment/class11-2.png")}
             alt=""
           />
@@ -548,15 +543,15 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-3 "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images/assessment/class11-1.png")}
             alt=""
           />
@@ -582,15 +577,15 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-3 "
+            className="max-w-[300px] max-md:w-[95%] h-[200px] mx-auto rounded-2xl  mt-3 "
             src={require("../../assets/images/assessment/class11-5.png")}
             alt=""
           />
@@ -616,7 +611,7 @@ const Class1112Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
@@ -627,11 +622,11 @@ const Class1112Component = () => (
 
 const Class10Component = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images/assessment/class10-3.png")}
             alt=""
           />
@@ -657,15 +652,15 @@ const Class10Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images/assessment/class10-1.png")}
             alt=""
           />
@@ -691,20 +686,21 @@ const Class10Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images//assessment/class10-4.png")}
             alt=""
           />
-          <p className="py-2 mx-8 mt-8"></p>
-          <hr className="middle-hr" />
+          <p className="py-2 mx-8 mt-4 text-black font-bold">
+            STREAM AND CAREER CLARITY SERVICE
+          </p>          <hr className="middle-hr" />
           <div className="service_items">
             <div className=" mr-[280px] mt-8">
               <FontAwesomeIcon icon={faBookOpen} />
@@ -723,7 +719,7 @@ const Class10Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
@@ -734,11 +730,11 @@ const Class10Component = () => (
 
 const Class89Component = () => (
   <div>
-    <div className="max-w-[1240px] mx-auto grid grid-cols-3 gap-6">
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+    <div className="max-w-[1240px] justify-center max-md:h-[700px] mx-auto flex flex-wrap max-md:overflow-scroll gap-6">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images/assessment/class10-3.png")}
             alt=""
           />
@@ -764,15 +760,15 @@ const Class89Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images/assessment/class10-1.png")}
             alt=""
           />
@@ -798,20 +794,21 @@ const Class89Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>
       </div>
-      <div className="col-span-1 shadow-xl h-[600px] my-4 border border-2px  rounded-2xl">
+      <div className="col-span-1 shadow-xl h-[600px]  sm:w-[350px] max-sm:max-w-[99%] my-4 border border-2px  rounded-2xl">
         <div className="text-center font-medium">
           <img
-            className="w-[94%] rounded-2xl ml-3 mt-4  "
+            className="max-w-[300px] h-[200px] max-md:w-[90%] mx-auto rounded-2xl  mt-4  "
             src={require("../../assets/images//assessment/class10-4.png")}
             alt=""
           />
-          <p className="py-2 mx-8 mt-8"></p>
-          <hr className="middle-hr" />
+          <p className="py-2 mx-8 mt-4 text-black font-bold">
+            STREAM AND CAREER CLARITY SERVICE
+          </p>          <hr className="middle-hr" />
           <div className="service_items">
             <div className=" mr-[280px] mt-8">
               <FontAwesomeIcon icon={faBookOpen} />
@@ -830,7 +827,7 @@ const Class89Component = () => (
               <s>43,999</s>&nbsp;15,000
             </p>
           </div>
-          <button className="bg-[#fd7d7d] w-[300px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
+          <button className="bg-[#fd7d7d] w-[300px] max-md:w-[180px] hover:text-[gray] flex justify-center rounded-md font-medium my-6 mx-auto px-4 py-3 text-[white] text-1xl">
             View Program
           </button>
         </div>

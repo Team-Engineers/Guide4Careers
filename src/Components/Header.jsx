@@ -3,10 +3,10 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/logo1.png";
 import MobileMenu from "./MobileMenu";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 const Header = () => {
   const [activeMobileMenu, setActiveMobileMenu] = useState(false);
-
   const scrollNav = useRef(null);
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +31,7 @@ const Header = () => {
         ref={scrollNav}
       >
         <div className="main-header py-6">
-          <div className="container">
+          <div className="container flex justify-between">
             <div className=" flex items-center justify-between">
               <Link
                 to={"/"}
@@ -66,15 +66,21 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <span
+            className="lg:hidden text-3xl text-black cursor-pointer rt-mobile-menu-close"
+            onClick={setActiveMobileMenu}
+          >
+            <FontAwesomeIcon icon={faBars} />
+          </span>
+           
           </div>
         </div>
       </header>
-      {activeMobileMenu && (
-        <MobileMenu
+      <MobileMenu
           activeMenu={activeMobileMenu}
           setActiveMenu={setActiveMobileMenu}
         />
-      )}
+       
     </>
   );
 };
