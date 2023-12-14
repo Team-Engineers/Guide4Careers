@@ -17,7 +17,6 @@ import InstructorTwo from "./Components/Pages/InstructorTwo";
 import SingleBlog from "./Components/Pages/SingleBlog";
 import SingleCourse from "./Components/Pages/SingleCourse";
 import Thanks from "./Components/Pages/Thanks";
-import Career from "./Components/Pages/Career";
 import Work from "./Components/Pages/Work";
 
 function App() {
