@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Founder = () => {
   return (
     <div className=" section-padding mx-auto bg-[url('../images/all-img/section-bg-16.png')] bg-cover  bg-no-repeat lg:mt-[136px]">
       <h2 className="flex max-md:flex-col text-center justify-center ">
-        Meet The Main Behind <span className='shape-bg ml-4'>Our Success</span>
+        Meet The Man Behind <span className='shape-bg ml-4'>Our Success</span>
       </h2>     
       <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 ">
         <div className=" md:h-[300px] mx-auto  w-[300px] my-4   ">
