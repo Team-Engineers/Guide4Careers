@@ -1,0 +1,42 @@
+.successbtn{
+    border: 3px solid black;
+    font-size: 4em;
+    padding: 10px;
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    
+
+}
+
+.mySwiper{
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .mySwiper {
+   width: 95%;
+   margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .successbtn {
+    border: 2px solid black;
+    font-size: 2em;
+    padding: 1px;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+   margin: 0 auto; 
+    display: block; 
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .mySwiper {
+   width: 80%;
+   margin-right: 40px;
+  }
+}
